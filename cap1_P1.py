@@ -38,6 +38,8 @@ def TwoPointer(arr, i, j):
 
 # Linkedlist 
 
+# Doubly Linkedlist
+
 # Reverse function
 def reverseLinkedList(start, end):
     rev = None
@@ -127,3 +129,5 @@ def process(words):
                 cur.children[c] = TrieNode()
             cur = cur.children[c]
     return root
+
+# 
